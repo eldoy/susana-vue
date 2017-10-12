@@ -1,0 +1,53 @@
+section.dialog, div.dialog {
+  border: 1px solid #eee;
+  background-image: linear-gradient(rgb(248, 248, 248), rgb(253, 253, 253));
+  padding: 1.618em 14px;
+  /*padding: 0;*/
+  border-radius: 7px;
+  margin: 2em auto 3em auto;
+  /*border: 1px solid #ccc;*/
+}
+
+section.dialog.narrow {
+  width: 400px;
+}
+
+.dialog h2 {
+  padding-bottom: 0.2em;
+  margin-bottom: 1.5em;
+  margin-top: 0;
+}
+
+.dialog label {
+}
+
+.dialog form p {
+  margin-bottom: 1.618em;
+}
+
+.dialog fieldset {
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  padding: 1.5em;
+  text-align: left;
+}
+
+.dialog fieldset legend {
+  color: #999;
+}
+
+.field-error {
+  text-align: left;
+}
+
+.cancel-button {
+  font-size: 90%;
+}
+
+.dialog-info {
+
+}
+
+.delete-info {
+  color: #777;
+}

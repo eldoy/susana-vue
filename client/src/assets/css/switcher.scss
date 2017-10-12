@@ -1,0 +1,31 @@
+.switcher-container {
+  margin: 2em 0;
+}
+
+.switcher {
+  background-color: #e2e9e9;
+  border: 1px dotted rgb(232, 240, 247);
+  border-radius: 7px;
+  padding: 0.7045em 0.7em;
+  font-size: 90%;
+
+  .switcher-off {
+    color: #999;
+    text-decoration: none;
+    cursor: default;
+
+  }
+
+  a {
+    padding: 0 0.3em;
+  }
+}
+
+span.switcher a:hover {
+  border-bottom:none;
+
+}
+
+.switcher-separator {
+  color: #aaa;
+}

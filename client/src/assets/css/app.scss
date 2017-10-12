@@ -1,0 +1,16 @@
+.contact-label {
+  border-radius: 5px;
+  color: #666;
+  background-color: rgb(248, 248, 248);
+  display:inline-block;
+  text-transform: lowercase;
+  padding: 0 0.7em;
+}
+
+/* Transition */
+.component-fade-enter-active, .component-fade-leave-active {
+  transition: opacity .1s ease;
+}
+.component-fade-enter, .component-fade-leave-to {
+  opacity: 0;
+}

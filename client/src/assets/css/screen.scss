@@ -1,0 +1,310 @@
+html, * {
+  font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+  line-height: 1.618em;
+  font-size: 1em;
+  color: #333;
+  text-align: left;
+  font-size: 12.5pt;
+}
+
+input, textarea {
+  font-family: inherit;
+  outline: none;
+  border: none;
+  font-size: 11pt;
+  width: 98.2%;
+  border: 1px dotted #ccc;
+  border-radius: 3px;
+  text-align: left;
+}
+
+input {
+  padding: 6px;
+  border: 1px dotted #ccc;
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-overflow: '';
+  padding: 0.4045em;
+  color: #333;
+  border: none;
+  display: block;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.809em;
+  text-align: left;
+  font-size: 90%;
+  color: #9a9a9a;
+}
+
+label span {
+  display: block;
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.4045em;
+  padding: 0;
+  font-weight: bold;
+  color: inherit;
+}
+
+h1 {
+  font-size: 18pt;
+}
+
+h2 {
+  font-size: 16pt;
+}
+
+h3 {
+  font-size: 14pt;
+}
+
+h4 {
+  font-size: 12pt;
+}
+
+h5 {
+  font-size: 11pt;
+}
+
+h6 {
+  font-size: 10pt;
+}
+
+ol, ul {
+  padding: 0;
+  list-style-position: inside;
+  padding-left: 0.4045em;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.4045em;
+}
+
+dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+dt, dd {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 66.66%;
+}
+
+dt {
+  text-align: right;
+  font-weight: bold;
+  width: 33.33%;
+}
+
+pre {
+  font-family: inherit;
+}
+
+section.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.2em;
+  background-color: white;
+  z-index: 1000;
+  opacity: 0.99;
+}
+
+section.content {
+  max-width: 648px;
+  margin: 5em auto 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.top img {
+  position: relative;
+  bottom: 0.7em;
+}
+
+code {
+  display: block;
+  background-color: #f5f5f5;
+  margin-top: 0.809em;
+  padding: 0.4045em;
+  padding-left: 1em;
+  border-radius: 5px;
+  color: green;
+}
+
+a, a:visited, a:active {
+  color: #146EB4;;
+  text-decoration: none;
+}
+
+aside {
+  color: #999;
+  font-size: 90%;
+}
+
+aside a, aside a:visited, aside a:active {
+  color: #999;
+  font-size: 90%;
+}
+
+.links a {
+  margin: 0 0.809em;
+}
+
+.links a.active {
+  text-decoration: none;
+}
+
+span.functions-control a {
+  margin: 0 0.5em;
+  font-size: 12pt;
+}
+
+.list a {
+  margin: 0 0.4045em;
+}
+
+.smaller {
+  font-size: 90%;
+}
+
+a.wo-btn, button.wo-btn {
+  min-width: 6.472em;
+  cursor: pointer;
+  color: #55cc20;
+  background-color: #e2e9e9;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 11pt;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease 0.3s;
+}
+
+a.wo-btn:hover, button.wo-btn:hover {
+  border: 1px solid #55cc20;
+}
+
+a.wo-btn:active, button.wo-btn:active, .buttons a.wo-btn.saving, button.wo-btn.saving {
+  background-color: rgb(217, 235, 241);
+  position: relative;
+  top: 2px;
+}
+
+a.wo-btn.saving, button.wo-btn.saving {
+  background-color: rgb(207, 225, 221);
+}
+
+a.wo-btn.btn-small {
+  font-size: 7.5pt;
+}
+
+a.wo-btn.btn-disabled {
+  cursor: not-allowed;
+  background-color: #e5e5e5;
+  color: #999;
+}
+
+.buttons button, .buttons a.wo-btn {
+  margin-right: 1.618em;
+}
+
+.buttons button:last-child, .buttons a.wo-btn:last-child {
+  margin-right: 0;
+}
+
+.buttons label {
+  display: inline;
+  margin: 0 0.809em;
+}
+
+.buttons {
+  padding-top: 0.809em;
+}
+
+.panel {
+  padding-top: 1.618em;
+  color: #aaa;
+  font-size: 10pt;
+}
+
+.sender {
+  padding-top: 1.618em;
+}
+
+.buttons {
+  margin: 1.618em 0 0.809em 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
+
+.right {
+  float: right;
+}
+
+.margin-left {
+  margin-left: 0.3em;
+}
+
+.margin-right {
+  margin-right: 0.3em;
+}
+
+.field-error {
+  color: red;
+}

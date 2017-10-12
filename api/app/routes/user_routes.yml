@@ -1,0 +1,33 @@
+user#create:
+  desc: User create
+  path: /api/user/create
+  method: post
+
+user#show:
+  desc: User show
+  path: /api/user/current
+  filters:
+    - require_user_login
+
+user#login:
+  desc: User login
+  path: /api/user/login
+  method: post
+
+user#logout:
+  desc: User logout
+  path: /api/user/logout
+
+user#update:
+  desc: User update
+  path: /api/user/update
+  method: put
+  filters:
+    - require_user_login
+
+user#password:
+  desc: User password
+  path: /api/user/password
+  method: put
+  filters:
+    - require_user_login
